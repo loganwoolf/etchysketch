@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Reenie+Beanie&family=Shadows+Into+Light&display=swap');
+
+h1 {
+	font-family: 'Reenie Beanie';
+	text-align: center;
+}
+body {
+	font-family: 'Architects Daughter', cursive;
+}
+
+main {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.main-canvas {
+	--width: 70vmin;
+	width: var(--width);
+	height: var(--width);
+	/* border: 1px solid grey; */
+	box-shadow: 0 0 15px lightgrey;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
