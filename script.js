@@ -15,3 +15,8 @@ function drawCells() {
 }
 
 gridSlider.addEventListener('mouseup', drawCells);
+canvas.addEventListener('mouseover', function(e) {
+	if (e.target.classList.contains('cell')) {
+		e.target.style.backgroundColor = 'black';
+	}
+})
