@@ -6,7 +6,7 @@ function drawCells() {
 	if (!this.value) {
 		this.value = 32;
 	}
-	const cellSize = canvas.offsetWidth / this.value;
+	const cellSize = (canvas.offsetWidth - 0.1) / this.value;
 	for (let i = 0; i < this.value ** 2; i++) {
 		const cell = document.createElement('div');
 		cell.style.width = `${cellSize}px`;
