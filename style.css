@@ -28,13 +28,10 @@ main {
 	--width: 70vmin;
 	width: var(--width);
 	height: var(--width);
-	/* border: 1px solid grey; */
 	box-shadow: 0 0 15px lightgrey;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-content: flex-start;
 	cursor: crosshair;
-}
-.cell {
 }
